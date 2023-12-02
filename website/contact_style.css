@@ -1,0 +1,15 @@
+#bg{
+    background-image: "contact us.jpg";
+}
+#style{
+    background-image: "contactus.jpg";
+    align-items: center;
+    position: centre;
+    margin: 30px 500px;
+}
+.d{
+    margin: 20px 590px;
+}
+#stt{
+    background-image: url(contactus.jpg);
+}

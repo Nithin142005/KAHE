@@ -1,0 +1,77 @@
+.logo{
+    cursor: pointer;
+}
+#titleimg1{
+   height: 150px;
+}
+
+
+#headimg1{
+    width: 110px;
+    height: 150px;
+    
+}
+#headimg2{
+    width:500px;
+    height: 150px;
+    margin-left: 400px;
+}
+#bar{
+    WIDTH:100%;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: 20;
+}
+ul{
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline;
+    text-decoration: none;
+    background-color: #EDEDED;
+    
+}
+
+a{
+    text-decoration: none;
+    padding:15px;
+    text-align: center;
+    color: black;
+}
+.nav_links ul li{
+    
+    list-style: none;
+}
+.nav_links ul li{
+    transition: all 0.3s ease 0s;
+    
+}
+.nav_links li:hover{
+    transition: all 0.5s ease 0.5s;
+   text-decoration: underline;
+}
+.drop-menu{
+    display: none;
+    position: relative;
+}
+.nav_links li:hover .drop-menu{
+    display: inline-block;
+    position:absolute;
+       
+}
+.nav_links li:hover .drop-menu ul{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+}
+.placement{
+    padding-top: 5px;
+}

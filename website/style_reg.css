@@ -1,0 +1,14 @@
+body{
+    padding: 40px;
+}
+.container{
+    max-width: 500px;
+    margin: 45 auto;
+    padding: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: grey;
+}
+.form-group{
+    margin-bottom: 50px;
+}

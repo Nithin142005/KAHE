@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="images/favicon.png" href="images/favicon.png">  
+        <title>KAHE Trainig and Placement | Staff Login</title>
+        <link rel="stylesheet" href="staff_style.css"> 
+    </head>
+<body>
+    <header>
+    <div id="titleimg1">
+    <img id="headimg1" src="images/LOGO-with-different-colors-03.png" alt="logo" width="800px" height="100px" class="img">
+
+    <img id="headimg2" src="images/LOGO 2.png" alt="logo" width="800px" height="100px" class="img">
+
+    </div>
+    <nav id="bar">
+   <ul class="nav_links"> 
+    <li><a href="index.html"> HOME</a></li>
+    <li><a href="index.html">CONTACT US</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="index.html">LOGIN</a>
+    <div class="drop-menu">
+        <ul>
+            <li><a href="student.html">STUDENT LOGIN</a></li>
+            <li><a href="staff.html">STAFFS LOGIN</a></li>
+        </ul>
+    </div>
+    </li>
+   </ul>
+    </nav>
+   </header>
+   <div class="container vh=100">
+     <div class="row justify-content-center h-100">
+        <div class="card w-25 my-auto shadow">
+            <div class="card-header text center bg-primary text-white">
+                <h2>LOGIN</h2>
+            </div>
+            <div class="card-body">
+                <form action="staff.php" method="post">
+                    <div class="form-group">
+                        <label for="sid">STAFF ID</label>
+                        <input type="sid" id="sid" class="form-control" name="sid" required/>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" class="form-control" name="password" required/>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footage text-right">
+              
+                <br>
+                <button class ="submit" >Submit</button>
+            </div>
+        </div>
+     </div>
+   </div>
+</body>
+</html>
